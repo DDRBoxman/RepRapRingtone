@@ -47,6 +47,8 @@ function changeTone( frequency )
 
 function stopTone(time)
 {
+	oscillator.frequency.cancelScheduledValues(time);
+	amp.gain.cancelScheduledValues(time);
 	amp.gain.setValueAtTime(0, time);
 }
 
@@ -80,6 +82,11 @@ function playSong()
 	}
 
 	stopTone(playTime);
+}
+
+function stopSong() {
+	var now = context.currentTime;
+	stopTone(now);
 }
 
 // init once the page has finished loading.
