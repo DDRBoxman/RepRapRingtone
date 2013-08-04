@@ -52,6 +52,12 @@ function stopTone(time)
 
 function playSong() 
 {
+
+	if (context == null) {
+		alert("Sorry. WebAudio API not supported. Try using the Google Chrome or Safari browser.");
+		return;
+	}
+
 	var gcodetextarea = document.getElementById('gcode');
 
 	lines = gcodetextarea.value.split('\n');
