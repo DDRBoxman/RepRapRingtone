@@ -58,6 +58,26 @@ function parseSong(songString, settings) {
 	return gcodeSong;
 }
 
+function getLineFrequency(line) {
+	var pattern = /S(\d*)/;
+
+	var match = pattern.exec(line);
+	
+	if (match != null)
+		return match[1];
+	return -1;
+}
+
+function getLineDuration(line) {
+	var pattern = /P(\d*)/;
+
+	var match = pattern.exec(line);
+
+	if (match != null)
+		return match[1];
+	return 0;
+}
+
 var notes = ['a', 'a#', 'b', 'c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#'];
 
 function getFrequency(note, octave) {
