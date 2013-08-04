@@ -19,23 +19,34 @@
 		<a href="https://github.com/DDRBoxman/RepRapRingtone"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
 		<div class="container">
-			<h1>rtttl to gcode</h1>
-			<div class="row">
-				<div class="col-lg-6">
-					<textarea id="rttl" rows="10" cols="50">
-victory:d=4,o=5,b=140:32d6,32p,32d6,32p,32d6,32p,d6,a#,c6,16d6,8p,16c6,2d6,a,g,a,16g,16p,c6,16c6,16p,b,16c6,16p,b,16b,16p,a,g,f#,16g,16p,1e,a,g,a,16g,16p,c6,16c6,16p,b,16c6,16p,b,16b,16p,a,g,a,16c6,16p,1d6
-					</textarea>	
-				</div>
-				<div class="col-lg-6">
-					<textarea id="gcode" rows="10" cols="50"></textarea>
-				</div>
+			<div class="page-header">
+				  <h1>RepRapRingtone <small>rtttl to gcode</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<button class="btn" onmousedown="convert();">Convert</button>
+					<p><textarea id="rttl" class="form-control" rows="10">
+victory:d=4,o=5,b=140:32d6,32p,32d6,32p,32d6,32p,d6,a#,c6,16d6,8p,16c6,2d6,a,g,a,16g,16p,c6,16c6,16p,b,16c6,16p,b,16b,16p,a,g,f#,16g,16p,1e,a,g,a,16g,16p,c6,16c6,16p,b,16c6,16p,b,16b,16p,a,g,a,16c6,16p,1d6
+					</textarea></p>
+					<p><button class="btn btn-primary" onmousedown="convert();">Convert</button></p>
 				</div>
 				<div class="col-lg-6">
-					<button class="btn" onmousedown="playSong();">Play</button>
+					<p><textarea id="gcode" class="form-control" rows="10"></textarea></p>
+					<p>
+						<button class="btn btn-success" onmousedown="playSong();">Play</button>
+						<button class="btn btn-danger" onmousedown="stopSong();">Stop</button>
+					</p>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-lg-5">
+					<ul>
+						<li>Great for print finished notifications!</li>
+						<li>Requires printer firmware that supports M300 and a buzzer. (Marlin and Repetier have support)</li>
+					</p>
+				</div>
+				<div class="col-lg-7">
+					<p><iframe width="560" height="315" src="http://www.youtube.com/embed/NwMkHMz9kC0" frameborder="0" allowfullscreen></iframe></p>
 				</div>
 			</div>
 		</div>
