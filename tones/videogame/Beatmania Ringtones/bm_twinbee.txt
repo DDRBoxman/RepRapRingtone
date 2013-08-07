@@ -1,0 +1,1 @@
+bm_twinbee:d=4,o=6,b=140:e,8c,g,8e,8f,2g,a,g,f.,8c7,2c7,1p,a.,g.,d.,c.,8f,8e,8f,8g,a.,g.,d.,c.,8f,8e,8f,8g

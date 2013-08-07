@@ -1,0 +1,1 @@
+Bubblman:d=4,o=5,b=180:c,8p,8c,16p,8a#4,16p,8c,c,8p,8c,16p,8a#4,16p,8c,d,8p,8d,16p,8c,16p,8d,d,8p,8d,16p,8c,16p,8d,c,8p,8c,16p,8a#4,16p,8c,c,8p,8c,16p,8a#4,16p,8c,d,8p,8d,16p,8c,16p,8d,b4,8p,8d,16p,8b4,16p,8d,c,8p,8c,16p,8a#4,16p,8c,c,8p,8c,16p,8a#4,16p,8c,d,8p,8d,16p,8c,16p,8d,d,8p,8d,16p,8c,16p,8d,c,8p,8c,16p,8a#4,16p,8c,c,8p,8c,16p,8a#4,16p,8c,d

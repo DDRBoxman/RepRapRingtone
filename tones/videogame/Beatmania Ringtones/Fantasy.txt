@@ -1,0 +1,1 @@
+Fantasy:d=8,o=5,b=180:a,h,2c6,4d6,c6,2h,a,h,2c6,4d6,c6,2h,a,h,2c6,4d6,c6,2h,4g,h,2a,a,h,2c6,4d6,c6,2h,a,h,2c6,4d6,c6,2h,a,h,2c6,a,f,2d6,h,d6,1e6

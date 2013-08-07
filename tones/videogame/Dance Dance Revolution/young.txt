@@ -1,0 +1,1 @@
+young:d=8,o=5,b=140:b,16b,16b,b,b,4b,g#,f#,f#,g#,4f#,4f#,e,f#,g#,16g#,16g#,g#,a,b,g#,f#,e,e,f#,4e,4e,e,f#,b,16b,16b,b,b,4b,g#,f#,f#,g#,4f#,4f#,e,f#,g#,16g#,16g#,g#,a,b,g#,f#,e,e,f#,4e,2e

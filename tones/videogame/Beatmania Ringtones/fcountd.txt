@@ -1,0 +1,1 @@
+fcountd:d=16,o=5,b=180:c#6,h,4c#6,4f#.,4p,d6,c#6,d6,p,c#6,p,4h.,4p,d6,c#6,4d6,4f#.,4p,h,a,h,p,a,p,g#,p,h,p,4a.,p,c#6,h,4c#6,4f#.,4p,d6,c#6,d6,p,c#6,p,4h.,4p,d6,c#6,4d6,4f#.,4p,h,a,h,p,a,p,g#,p,h,p,4a.,g#,a,4h.,a,h,c#6,p,h,p,a,p,g#,p,4f#,4d6,2c#6,8c#6.,4d6,c#6,h,2c#6

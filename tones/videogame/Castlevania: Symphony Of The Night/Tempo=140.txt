@@ -1,0 +1,1 @@
+Tempo=140:(hold 5), 688, 6#, (hold 4)99#, 08, (hold 5), 688, 6#, (hold 1)9*, (hold 6)**#, 6, (hold 5), (hold 4), 2#, (hold 6), (hold 5), 4, 599, 0, (hold 5)8, 688, 6#, (hold 4)99#, 08, (hold 5), 688, 6#, (hold 1)9*, (hold 6)**#, 6, (hold 5), (hold 4), 2#, (hold 6), (hold 5), 4, 599

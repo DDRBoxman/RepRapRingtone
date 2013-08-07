@@ -1,0 +1,1 @@
+ddr_ninzaburo:d=4,o=5,b=225:b,e6,b6,g6,e6,8b,8p,b,e6,b6,2g6,p,b,e6,b6,g6,e6,8b,8p,b,e6,b6,2g6,p,e6,f#6,e6,2g6,b6,1c7,p,b,c6,b,2d6,c6,1b,p,e6,f#6,e6,2g6,b6,1c7,p,b,c6,b,2d6,c6,1b,p
