@@ -1,4 +1,3 @@
-
 // Example showing how to produce a tone using Web Audio API.
 var oscillator;
 var amp;
@@ -13,7 +12,7 @@ function initAudio()
 		oscillator = context.createOscillator();
 		fixOscillator(oscillator);
 		oscillator.frequency.value = 440;
-		amp = context.createGainNode();
+		amp = context.createGain();
 		amp.gain.value = 0;
 	
 		// Connect ooscillator to amp and amp to the mixer of the context.
