@@ -38,13 +38,23 @@ function parseSong(songString, settings) {
 		var frequency;
 		var duration = settings.getDuration();
 		var octave = settings.getOctave();
-		var match = pattern.exec(songData[i]);	
+
+		var songNote = songData[i].replace(".", "");
+		var match = pattern.exec(songNote);     
+		var dot = 0;
+
+		if(songData[i].indexOf('.') !== -1) {
+			dot = 1;
+		}
 
 		if (typeof match[1] != "undefined") {
 			duration = match[1];	
 		}
 
 		duration = getDuration(beatDuration, duration);
+		if(dot == 1) {
+			duration += duration / 2;
+		}
 
 		if (typeof match[3] != "undefined") {
 			octave = parseInt(match[3]);
