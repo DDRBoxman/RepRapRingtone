@@ -48,8 +48,6 @@ function parseSong(songString, settings) {
 		//octave manager
 		if(isNaN(oct) == false){
 			octave = oct*1;
-       		}else{
-			var octave = settings.getOctave();
 		}
 		
 		if(songData[i].indexOf('.') !== -1) {
