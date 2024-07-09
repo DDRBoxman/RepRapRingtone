@@ -4,10 +4,12 @@ var amp;
 var lines;
 var linenumber;
 
-// Create an AudioCOntext and a JavaScriptNode.
+var isAudioSetup = false;
+
+// Create an AudioContext and a JavaScriptNode.
 function initAudio()
 {
-	if( context )
+	if( context && !isAudioSetup )
 	{
 		oscillator = context.createOscillator();
 		fixOscillator(oscillator);
@@ -20,6 +22,8 @@ function initAudio()
 		oscillator.connect(amp);
 		amp.connect(context.destination);
 		oscillator.start(0);
+
+		isAudioSetup = true;
 	}
 }
 
@@ -59,6 +63,10 @@ function playSong()
 		return;
 	}
 
+	initAudio();
+
+	//context.resume();
+
 	var gcodetextarea = document.getElementById('gcode');
 
 	lines = gcodetextarea.value.split('\n');
@@ -84,9 +92,9 @@ function playSong()
 }
 
 function stopSong() {
-	var now = context.currentTime;
-	stopTone(now);
+	if (isAudioSetup) {
+		var now = context.currentTime;
+		stopTone(now);
+	}
 }
 
-// init once the page has finished loading.
-window.onload = initAudio;
