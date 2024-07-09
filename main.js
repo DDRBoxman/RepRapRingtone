@@ -42,7 +42,16 @@ function parseSong(songString, settings) {
 		var songNote = songData[i].replace(".", "");
 		var match = pattern.exec(songNote);     
 		var dot = 0;
-
+		
+		var oct = songData[i].slice(-1);
+		
+		//octave manager
+		if(isNaN(oct) == false){
+			octave = oct*1;
+		}else{
+			octave = settings.getOctave();
+		}
+		
 		if(songData[i].indexOf('.') !== -1) {
 			dot = 1;
 		}
