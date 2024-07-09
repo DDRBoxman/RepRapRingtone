@@ -6,4 +6,4 @@ RepRapRingtone converts rtttl ringtones to gcode. This is greate for using the n
 This requires your firmware to support M300 and your printer will need a buzzer.
 
 It just uses javascript so you can use the converter in your browser here:
-http://ddrboxman.github.com/RepRapRingtone/
+[http://ddrboxman.github.com/RepRapRingtone/](http://ddrboxman.github.io/RepRapRingtone/)
